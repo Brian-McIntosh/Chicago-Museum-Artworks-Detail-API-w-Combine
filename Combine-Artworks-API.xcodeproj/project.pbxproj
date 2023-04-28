@@ -11,6 +11,10 @@
 		25BB2E5329FC0E360021EB42 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BB2E5229FC0E360021EB42 /* ContentView.swift */; };
 		25BB2E5529FC0E370021EB42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25BB2E5429FC0E370021EB42 /* Assets.xcassets */; };
 		25BB2E5829FC0E370021EB42 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25BB2E5729FC0E370021EB42 /* Preview Assets.xcassets */; };
+		25BB2E6229FC0EB60021EB42 /* ArtworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BB2E6129FC0EB60021EB42 /* ArtworkModel.swift */; };
+		25BB2E6429FC10430021EB42 /* ArtworkViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BB2E6329FC10430021EB42 /* ArtworkViewModel.swift */; };
+		25BB2E6629FC15B50021EB42 /* ArtworkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BB2E6529FC15B50021EB42 /* ArtworkRow.swift */; };
+		25BB2E6829FC16C90021EB42 /* ArtworkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BB2E6729FC16C90021EB42 /* ArtworkDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		25BB2E5229FC0E360021EB42 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		25BB2E5429FC0E370021EB42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		25BB2E5729FC0E370021EB42 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		25BB2E6129FC0EB60021EB42 /* ArtworkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkModel.swift; sourceTree = "<group>"; };
+		25BB2E6329FC10430021EB42 /* ArtworkViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkViewModel.swift; sourceTree = "<group>"; };
+		25BB2E6529FC15B50021EB42 /* ArtworkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkRow.swift; sourceTree = "<group>"; };
+		25BB2E6729FC16C90021EB42 /* ArtworkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +60,9 @@
 			isa = PBXGroup;
 			children = (
 				25BB2E5029FC0E360021EB42 /* Combine_Artworks_APIApp.swift */,
-				25BB2E5229FC0E360021EB42 /* ContentView.swift */,
+				25BB2E5E29FC0E480021EB42 /* Model */,
+				25BB2E6029FC0E5B0021EB42 /* Views */,
+				25BB2E5F29FC0E530021EB42 /* ViewModel */,
 				25BB2E5429FC0E370021EB42 /* Assets.xcassets */,
 				25BB2E5629FC0E370021EB42 /* Preview Content */,
 			);
@@ -65,6 +75,32 @@
 				25BB2E5729FC0E370021EB42 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		25BB2E5E29FC0E480021EB42 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				25BB2E6129FC0EB60021EB42 /* ArtworkModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		25BB2E5F29FC0E530021EB42 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				25BB2E6329FC10430021EB42 /* ArtworkViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		25BB2E6029FC0E5B0021EB42 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				25BB2E5229FC0E360021EB42 /* ContentView.swift */,
+				25BB2E6529FC15B50021EB42 /* ArtworkRow.swift */,
+				25BB2E6729FC16C90021EB42 /* ArtworkDetailView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +174,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				25BB2E5329FC0E360021EB42 /* ContentView.swift in Sources */,
+				25BB2E6629FC15B50021EB42 /* ArtworkRow.swift in Sources */,
+				25BB2E6229FC0EB60021EB42 /* ArtworkModel.swift in Sources */,
 				25BB2E5129FC0E360021EB42 /* Combine_Artworks_APIApp.swift in Sources */,
+				25BB2E6829FC16C90021EB42 /* ArtworkDetailView.swift in Sources */,
+				25BB2E6429FC10430021EB42 /* ArtworkViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
